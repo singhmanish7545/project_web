@@ -1,0 +1,103 @@
+// index.html
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="/style.css">
+    <title>login form</title>
+    
+</head>
+<body>
+    <div class="continer">
+        <div class="child-1">
+            <img  class="img"  src="./logo-dummy.jpg" alt="dummy image" width="40px" height="50px">
+            <h2 class="welcome">Welcome back</h2>
+            <p>Enter your credentials to login</p>
+            <form>
+                     <label for="un"></label>
+                    <input class="ch-2" type="text" name="username" placeholder="Username">
+
+                     <label for="pass"></label>
+                    <input class="ch-2" type="text" id="pass" name="username" placeholder="Password">
+                    
+                    
+                    <button class="ch-3">Login</button>
+                    
+                    
+                     <button class="ch-4">Forgot password?</button>
+                     
+        
+            </form>
+
+        </div>
+    </div>
+</body>
+</html>
+
+
+// style.css
+
+
+
+ .continer{
+    /* margin: 40px; */
+    display: flex;
+    /* justify-content: center; */
+    text-align: center;
+    width: 100%;
+    height: 550px;
+    border: 1px solid black;
+    background-color: rgb(160, 97, 220);
+} 
+.child-1{
+    margin: 80px;
+    width: 250px;
+    height: 400px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 5px;
+}
+.ch-2{
+    width: 200px;
+    height: 40px;
+     margin: 5px; 
+     border: 2px solid grey;
+    border-radius: 8px;
+    /* background-color: darkorchid; */
+    color: blanchedalmond;
+    font-size: medium;  
+}
+.ch-3{
+    width: 100px;
+    height: 20px;
+    /* padding: 15px; */
+    margin: 15px;
+    border:2px solid grey ;
+    border-radius:8px;
+    background-color: rgb(125, 43, 226);
+    color: white;
+    font-size: small;
+}
+.ch-4{
+    /* padding: 10px; */
+    margin: 20px;
+    /* border:2px solid grey ; */ 
+    /* background-color: rgb(125, 43, 226); */
+    color: black;
+    font-size: smaller;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    width: 40px;
+    height: 50px;
+    margin: 5px;
+
+}
+.welcome {
+    text-align: center;
+}
